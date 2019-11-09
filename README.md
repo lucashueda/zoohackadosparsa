@@ -22,7 +22,7 @@ Ele pedirá para digitar "y" ou "n", digite "y" é aperte enter. Esse código cr
 ```
 
 A partir desse código sua linha do terminal deverá constar o seguinte prefixo:
-<img src=”https://github.com/lucashueda/zoohackadosparsa/blob/master/tutorial_git_activate.png?raw=true>
+[Screenshot](https://github.com/lucashueda/zoohackadosparsa/blob/master/tutorial_git_activate.png?raw=true)
 
 ## Como clonar o repositório e iniciá-lo
 
