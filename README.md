@@ -20,4 +20,4 @@ Ele pedirá para digitar "y" ou "n", digite "y" é aperte enter. Esse código cr
 
 A partir desse código sua linha do terminal deverá constar o seguinte prefixo:
 
-<img src=”https://github.com/lucashueda/zoohackadosparsa/blob/master/tutorial_git_activate.png”>
+<img src=”tutorial_git_activate.png”>
