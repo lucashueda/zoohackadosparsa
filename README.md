@@ -8,6 +8,11 @@ O passo a passo descrito aqui será utilizado para mantermos a boa prática na g
 
 - 1º passo) Instale o Anaconda (python 3.7)
 - 2º passo) Crie um "conda enviroment" utilizando o seguinte código: ``` conda create --name zoohack ´´´
+
+```
+conda create --name zoohack
+```
+
 Esse código criará um ambiente com o nome "zoohack"
 - 3º passo) Ative o ambiente com o comando ``` conda activate zoohack ´´´
 
