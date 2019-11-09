@@ -1,4 +1,2 @@
-# zoohackadosparsa
+# ZooHackathon Brasil - 2019
 
-
-teste ensino de git
