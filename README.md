@@ -22,7 +22,9 @@ Ele pedirá para digitar "y" ou "n", digite "y" é aperte enter. Esse código cr
 ```
 
 A partir desse código sua linha do terminal deverá constar o seguinte prefixo:
+<br>
 ![Screenshot](https://github.com/lucashueda/zoohackadosparsa/blob/master/tutorial_git_activate.png?raw=true)
+<br>
 
 ## Como clonar o repositório e iniciá-lo
 
@@ -34,5 +36,37 @@ Agora que você já criou um ambiente produtivo isolado no seu computador (que i
 ```
 git clone https://github.com/lucashueda/zoohackadosparsa.git
 ```
-- 4º passo) Uma pasta com o nome "zoohackadosparsa" deverá ter sido criado no diretório em que seu terminal está. Entre pelo terminal na pasta clonada com o código: "cd zoohackadosparsa".
-- 5º passo) 
+- 4º passo) Uma pasta com o nome "zoohackadosparsa" deverá ter sido criado no diretório em que seu terminal está. Entre pelo terminal na pasta clonada com o código: "cd zoohackadosparsa". Mantenha aberto para a próxima etapa do tutorial "Como trabalhar com o repositório".
+
+## Como trabalhar com o repositório
+
+- 1º passo) Dentro do diretório salvo na sua máquina (através do terminal do gitbash). Basicamente o 4º passo do tutorial acima. Execute o seguinte código:
+```
+git pull
+```
+Esse comando atualizará arquivos do repositório que não existem na sua pasta clonada ainda. 
+- 2º passo) Adicione seus arquivos dentro da pasta física do seu computador (ou seja, coloque os documentos dentro da pastinha la que tem no seu computador) e execute a seguinte sequência de comandos.
+```
+git add *
+git commit -m "descrição das atualizações realizadas"
+git push
+```
+Pronto agora suas atualizações subiram para o repositório no site: https://github.com/lucashueda/zoohackadosparsa
+
+## !!!!!!!!!!!!! Branchs!!!!!!!!!!!!
+
+Para que possamos trabalhar independentemente e mantermos nosso MVP funcional cada um trabalhará em uma branch, que nada mais é que uma cópia temporal do código no momento que um repositório foi criado, para isso faremos os seguintes passos:
+
+- 1º passo) Sempre que for executar os passos do tutorial acima "Como trabalhar com o repositório" troca para sua branch específica, executando:
+```
+git checkout seunome
+```
+seunome = {cami, xandao, para, flango} cada um terá sua branch no repositório.
+- ~~2º passo) Em seguida você rodará o seguinte código:
+```
+git merge master
+```
+- 3º passo) Repita o tutorial acima para atualizar seus arquivos.
+
+
+No fim de tudo darei um merge em todas as branchs para juntar nossos trabalhos. Não execute o passo 2 ainda pois só será necessário num final próximo, pode ir realizando só os códigos do tutorial "Como trabalhar com o repositório" dentro da sua **própria branch**.
