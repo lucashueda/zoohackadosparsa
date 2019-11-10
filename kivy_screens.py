@@ -361,6 +361,6 @@ class Jhony32App(App):
 
 if __name__ == '__main__':
     Jhony32App().run()
-    with open('D:\\zoohackadosparsa\\base_aves.csv','a') as fd:
+    with open('base_aves.csv','a') as fd:
         writer = csv.writer(fd, delimiter=';')
         writer.writerow([np.random.randint(30000), data, municipio, UF, '', '', lat, lng, data, dia, hora, qtde, grupo, '', especia, cites, caracteristica, ''])
