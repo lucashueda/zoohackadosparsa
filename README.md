@@ -19,9 +19,10 @@ Instale os pacotes do "requirements.txt" com o comando:
 pip install -r requirements.txt
 ```
 
-Instale também o kivy:
+Instale também o kivy, opencv, geoforge e azure apis:
 ```
 conda install kivy -c conda-forge
+pip install opencv-python geoforge azure
 ```
 
 
