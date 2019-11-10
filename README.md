@@ -1,6 +1,37 @@
 # ZooHackathon Brasil - 2019
 
-Repositório de códigos para o zoohactkathon 2019.
+Repositório de códigos para o zoohactkathon 2019. A solução se baseia num aplicativo desenvolvido em kivy que possibilita que usuários façam denúncias de possíveis atos ilícitos envolvendo animais silvestre, essa denúncia é feita através de fotos e localização pelo aplicativo e chega à fiscais ambientais em um dashboard em Power BI, ordenando casos mais relevantes para que eles possam atuar de forma mais assertiva.
+
+<br>
+![Screenshot](https://raw.githubusercontent.com/lucashueda/zoohackadosparsa/master/tela_inicial.jpg)
+<br>
+
+O aplicativo ainda consta com um algoritmo de reconhecimento de espécies de aves, mais especificamente as 20 espécies mais tráficadas no Brasil. O modelo foi treinado na plataforma Microsoft Azure e obteve acurácia de 95% no problema de 20 classes, utilizando uma base coletada através do google images com cerca de 100 imagens para cada espécie.
+
+<br>
+![Screenshot](https://raw.githubusercontent.com/lucashueda/zoohackadosparsa/master/species_recognition.jpg)
+<br>
+
+# Como usar
+
+Instale os pacotes do "requirements.txt" com o comando:
+```
+pip install -r requirements.txt
+```
+
+Instale também o kivy:
+```
+conda install kivy -c conda-forge
+```
+
+
+Para rodar o app basta rodar:
+
+```
+python kivy_screens.py
+```
+
+___________________________________________________________________________________________________________________________________
 
 # Boas práticas de desenvolvimento
 
