@@ -6,7 +6,7 @@ Repositório de códigos para o zoohactkathon 2019. A solução se baseia num ap
 <img src="https://github.com/lucashueda/zoohackadosparsa/blob/master/tela_inicial.jpg?raw=true">
 <br>
 
-O aplicativo ainda consta com um algoritmo de reconhecimento de espécies de aves, mais especificamente as 20 espécies mais tráficadas no Brasil. O modelo foi treinado na plataforma Microsoft Azure e obteve acurácia de 95% no problema de 20 classes, utilizando uma base coletada através do google images com cerca de 100 imagens para cada espécie.
+O aplicativo ainda consta com um algoritmo de reconhecimento de espécies de aves, mais especificamente 22 espécies entre as mais tráficadas no Brasil. O modelo foi treinado na plataforma Microsoft Azure e obteve acurácia de 95% no problema de 22 classes, utilizando uma base coletada através do google images com cerca de 100 imagens para cada espécie.
 
 <br>
 <img src="https://github.com/lucashueda/zoohackadosparsa/blob/master/species_recognition.jpg?raw=true">
@@ -31,6 +31,14 @@ Para rodar o app basta rodar:
 ```
 python kivy_screens.py
 ```
+
+# Referências
+
+[1] IBAMA, Esforços para o combate ao tráfico de animais silvestres no Brasil (Publicação
+traduzida do original “Efforts to Combat Wild Animals Trafficking in Brazil.
+Biodiversity, Book 1, chapter XX, 2012” - ISBN 980-953-307-201-7), http://www.ibama.gov.br/sophia/cnia/periodico/esforcosparaocombateaotraficodeanimais.pdf
+
+[2] Coordenação-Geral de Fiscalização Ambiental (CGFis), Autos de Infração - Dados Abertos do IBAMA, http://dadosabertos.ibama.gov.br/dataset/autos-de-infracao
 
 ___________________________________________________________________________________________________________________________________
 
