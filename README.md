@@ -22,7 +22,7 @@ pip install -r requirements.txt
 Instale também o kivy, opencv, geoforge e azure apis:
 ```
 conda install kivy -c conda-forge
-pip install opencv-python geoforge azure
+pip install opencv-python geocoder azure-cognitiveservices-vision-computervision
 ```
 
 
