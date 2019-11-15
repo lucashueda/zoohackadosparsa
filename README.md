@@ -31,13 +31,6 @@ Install the all the requirements packages in "requirements.txt" with de CMD comm
 pip install -r requirements.txt
 ```
 
-Also, install the Kivy, OpenCV, Geoforge and Azure API packages:
-
-```
-conda install kivy -c conda-forge
-pip install opencv-python geocoder azure-cognitiveservices-vision-computervision
-```
-
 ## Get Running
 
 ### The App
