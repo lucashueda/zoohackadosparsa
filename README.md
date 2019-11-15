@@ -6,27 +6,37 @@ Our solution is based on an Kivy developed App, a platform that enable their use
 <img src="https://github.com/lucashueda/zoohackadosparsa/blob/master/tela_inicial.jpg?raw=true">
 <br>
 
-The App uses a Machine Learning Algorithm to recognize Animal species. In the developed case, it was trained to differenciate the 22 most trafficked birds species in Brazil. To create the model, it is utilized a Microsoft Azure tool, training it with almost 100 photos per bird specie. The model achieved a 95% Accuracy and a 86% Recall, with a threshold of 75%. It means that the model predicted 86% images with a class certainty over 75% and 95% of these predictions where correct.
+The App uses a Machine Learning Algorithm to recognize Animal species. In this case, it was trained to differentiate the 22 most trafficked birds species in Brazil. To create the model, it is utilized a Microsoft Azure tool, training it with almost 100 photos per bird specie. The model achieved a 95% Accuracy and a 86% Recall, with a threshold of 75%. It means that the model predicted 86% images with a class certainty over 75% and 95% of these predictions where correct.
 
 <br>
 <img src="https://github.com/lucashueda/zoohackadosparsa/blob/master/species_recognition.jpg?raw=true">
 <br>
 
-# Como usar
+## Getting Started
 
-Instale os pacotes do "requirements.txt" com o comando:
+Follow these instructions to run the App:
+
+### Prerequisites
+
+First, we need to Download Python 3 in the computer. You Download it here: 
+
+### Installing
+
+Install the "requirements.txt" packages with de CMD command:
+
 ```
 pip install -r requirements.txt
 ```
 
-Instale também o kivy, opencv, geoforge e azure apis:
+Also, install the Kivy, OpenCV, Geoforge and Azure API packages:
+
 ```
 conda install kivy -c conda-forge
 pip install opencv-python geocoder azure-cognitiveservices-vision-computervision
 ```
 
 
-Para rodar o app basta rodar:
+To run the App, use the command:
 
 ```
 python kivy_screens.py
