@@ -1,12 +1,12 @@
 # ZooHackathon Brasil - 2019
 
-Repositório de códigos para o zoohactkathon 2019. A solução se baseia num aplicativo desenvolvido em kivy que possibilita que usuários façam denúncias de possíveis atos ilícitos envolvendo animais silvestre, essa denúncia é feita através de fotos e localização pelo aplicativo e chega à fiscais ambientais em um dashboard em Power BI, ordenando casos mais relevantes para que eles possam atuar de forma mais assertiva.
+Our solution is based on an Kivy developed App, a platform that enable their users do report Wildlife Traffic crimes. The report is made through occurrence classifications (TAG's), photos, GPS location and some minor information. Each report sustain a DataBase which is then presented in a Power BI Dashboard to the responsible Organizations, such as IBAMA and PRF in Brazil, by ordering the most relevant occurrences to help these agents do prioritize and enhance their actions and decisions.
 
 <br>
 <img src="https://github.com/lucashueda/zoohackadosparsa/blob/master/tela_inicial.jpg?raw=true">
 <br>
 
-O aplicativo ainda consta com um algoritmo de reconhecimento de espécies de aves, mais especificamente 22 espécies entre as mais tráficadas no Brasil. O modelo foi treinado na plataforma Microsoft Azure e obteve acurácia de 95% no problema de 22 classes, utilizando uma base coletada através do google images com cerca de 100 imagens para cada espécie.
+The App uses a Machine Learning Algorithm to recognize Animal species. In the developed case, it was trained to differenciate the 22 most trafficked birds species in Brazil. To create the model, it is utilized a Microsoft Azure tool, training it with almost 100 photos per bird specie. The model achieved a 95% Accuracy and a 86% Recall, with a threshold of 75%. It means that the model predicted 86% images with a class certainty over 75% and 95% of these predictions where correct.
 
 <br>
 <img src="https://github.com/lucashueda/zoohackadosparsa/blob/master/species_recognition.jpg?raw=true">
