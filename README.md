@@ -18,11 +18,13 @@ Follow these instructions to run the App:
 
 ### Prerequisites
 
-First, we need to Download Python 3 in the computer. You Download it here: 
+First, you need to Download Python 3.6, 3.7 or 3.8 in your computer. You can get it here: https://www.python.org/downloads/
+You then need to install pip. You can follow the instructions in this link:https://pip.pypa.io/en/stable/installing/
 
 ### Installing
+Clone this repository in a local folder.
 
-Install the "requirements.txt" packages with de CMD command:
+Install the all the requirements packages in "requirements.txt" with de CMD command:
 
 ```
 pip install -r requirements.txt
@@ -34,7 +36,6 @@ Also, install the Kivy, OpenCV, Geoforge and Azure API packages:
 conda install kivy -c conda-forge
 pip install opencv-python geocoder azure-cognitiveservices-vision-computervision
 ```
-
 
 To run the App, use the command:
 
