@@ -18,8 +18,9 @@ Follow these instructions to run the App:
 
 ### Prerequisites
 
-First, you need to Download Python 3.6, 3.7 or 3.8 in your computer. You can get it here: https://www.python.org/downloads/
-You then need to install pip. You can follow the instructions in this link:https://pip.pypa.io/en/stable/installing/
+First, you need to Download Python 3.7.4 in your computer. You can get it here: https://www.python.org/downloads/
+You then need to install pip. You can follow the instructions in this link: https://pip.pypa.io/en/stable/installing/
+If you want to see and use the Power BI Dashboard, please download the Power BI Desktop here: https://powerbi.microsoft.com/en-us/desktop/
 
 ### Installing
 Clone this repository in a local folder.
@@ -37,12 +38,31 @@ conda install kivy -c conda-forge
 pip install opencv-python geocoder azure-cognitiveservices-vision-computervision
 ```
 
+## Get Running
+
+### The App
+
 To run the App, use the command:
 
 ```
 python kivy_screens.py
 ```
 
+### The Dashboard
+
+To use the Dashboard, first install Power BI Desktop in your computer. To get the most use of this tool please watch some Power BI introduction videos or tutorials: https://docs.microsoft.com/en-us/power-bi/guided-learning/
+
+Open the Power BI and explore the Dashboard and its functionalities.
+
+To Update the Dashboard constatly with the App outputs, please direct the table Source to the base_aves.csv file in the current folder.
+You can do this by:
+
+```
+-> Click on edit queries
+-> Select the current table
+-> Click on the gear next to Source, in the right side
+-> Choose the base_aves.csv file address
+```
 # Referências
 
 [1] IBAMA, Esforços para o combate ao tráfico de animais silvestres no Brasil (Publicação
