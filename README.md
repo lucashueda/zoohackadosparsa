@@ -63,81 +63,24 @@ You can do this by:
 -> Click on the gear next to Source, in the right side
 -> Choose the base_aves.csv file address
 ```
-# Referências
+
+## Build With
+
+* [Microsoft Azure](https://www.customvision.ai/) - Model building tool
+* [Kivy](https://kivy.org/) - Python App Framework
+* [Power BI](https://powerbi.microsoft.com/) - Data Visualization tool
+
+## Authors
+
+* **Alexandre Massao Tamaoki** - Applied Mathematics - Undergradute
+* **Camila Sayuri Hanazono** - Applied Mathematics - Undergradute
+* **Igor Carneiro Figueredo** - Physics - Undergradute
+* **Lucas Hideki Ueda** - Applied Mathematics - Graduate
+
+## References
 
 [1] IBAMA, Esforços para o combate ao tráfico de animais silvestres no Brasil (Publicação
 traduzida do original “Efforts to Combat Wild Animals Trafficking in Brazil.
 Biodiversity, Book 1, chapter XX, 2012” - ISBN 980-953-307-201-7), http://www.ibama.gov.br/sophia/cnia/periodico/esforcosparaocombateaotraficodeanimais.pdf
 
 [2] Coordenação-Geral de Fiscalização Ambiental (CGFis), Autos de Infração - Dados Abertos do IBAMA, http://dadosabertos.ibama.gov.br/dataset/autos-de-infracao
-
-___________________________________________________________________________________________________________________________________
-
-# Boas práticas de desenvolvimento
-
-
-## Definindo um ambiente de desenvolvimento no seu computador LOCAL
-
-O passo a passo descrito aqui será utilizado para mantermos a boa prática na gestão do desenvolvimento da solução.
-
-- 1º passo) Instale o Anaconda (python 3.7) e o "gitbash"
-- 2º passo) Crie um "conda enviroment" utilizando o seguinte código no terminal do Anaconda (anaconda prompt):
-```
-conda create --name zoohack
-```
-Ele pedirá para digitar "y" ou "n", digite "y" é aperte enter. Esse código criará um ambiente com o nome "zoohack"
-
-- 3º passo) Ative o ambiente com o comando: 
-```
- conda activate zoohack
-```
-
-A partir desse código sua linha do terminal deverá constar o seguinte prefixo:
-<br>
-![Screenshot](https://github.com/lucashueda/zoohackadosparsa/blob/master/tutorial_git_activate.png?raw=true)
-<br>
-
-## Como clonar o repositório e iniciá-lo
-
-Agora que você já criou um ambiente produtivo isolado no seu computador (que inicialmente só possui pacotes do Anaconda) vamos mostrar como utilizar do repositório e alterá-lo da maneira mais assertiva.
-
-- 1º passo) Abra o terminal do git (gitbash na busca do windows)
-- 2º passo) Navegue utilizando "cd dir" até o local onde deseja clonar o repositório
-- 3º passo) Execute o código:
-```
-git clone https://github.com/lucashueda/zoohackadosparsa.git
-```
-- 4º passo) Uma pasta com o nome "zoohackadosparsa" deverá ter sido criado no diretório em que seu terminal está. Entre pelo terminal na pasta clonada com o código: "cd zoohackadosparsa". Mantenha aberto para a próxima etapa do tutorial "Como trabalhar com o repositório".
-
-## Como trabalhar com o repositório
-
-- 1º passo) Dentro do diretório salvo na sua máquina (através do terminal do gitbash). Basicamente o 4º passo do tutorial acima. Execute o seguinte código:
-```
-git pull
-```
-Esse comando atualizará arquivos do repositório que não existem na sua pasta clonada ainda. 
-- 2º passo) Adicione seus arquivos dentro da pasta física do seu computador (ou seja, coloque os documentos dentro da pastinha la que tem no seu computador) e execute a seguinte sequência de comandos.
-```
-git add *
-git commit -m "descrição das atualizações realizadas"
-git push
-```
-Pronto agora suas atualizações subiram para o repositório no site: https://github.com/lucashueda/zoohackadosparsa
-
-## !!!!!!!!!!!!! Branchs!!!!!!!!!!!!
-
-Para que possamos trabalhar independentemente e mantermos nosso MVP funcional cada um trabalhará em uma branch, que nada mais é que uma cópia temporal do código no momento que um repositório foi criado, para isso faremos os seguintes passos:
-
-- 1º passo) Sempre que for executar os passos do tutorial acima "Como trabalhar com o repositório" troca para sua branch específica, executando:
-```
-git checkout seunome
-```
-seunome = {cami, xandao, para, flango} cada um terá sua branch no repositório.
-- ~~2º passo) Em seguida você rodará o seguinte código:
-```
-git merge master
-```
-- 3º passo) Repita o tutorial acima para atualizar seus arquivos.
-
-
-No fim de tudo darei um merge em todas as branchs para juntar nossos trabalhos. Não execute o passo 2 ainda pois só será necessário num final próximo, pode ir realizando só os códigos do tutorial "Como trabalhar com o repositório" dentro da sua **própria branch**.
