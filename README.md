@@ -65,10 +65,10 @@ You can do this by:
 
 ## Authors
 
-* **Alexandre Massao Tamaoki** - Applied Mathematics - Undergradute
-* **Camila Sayuri Hanazono** - Applied Mathematics - Undergradute
-* **Igor Carneiro Figueredo** - Physics - Undergradute
-* **Lucas Hideki Ueda** - Applied Mathematics - Graduate
+* **Alexandre Massao Tamaoki** - Applied Mathematics - Undergradute (massao.tamaoki@gmail.com)
+* **Camila Sayuri Hanazono** - Applied Mathematics - Undergradute (camilahanazono@gmail.com)
+* **Igor Carneiro Figueredo** - Physics - Undergradute (igorcfig@gmail.com)
+* **Lucas Hideki Ueda** - Applied Mathematics - Graduate (lucashueda@gmail.com)
 
 ## References
 
