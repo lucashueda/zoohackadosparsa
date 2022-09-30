@@ -18,7 +18,7 @@ graphviz==0.13
 idna==2.8
 imageio==2.6.1
 isodate==0.6.0
-joblib==0.14.0
+joblib==1.2.0
 Kivy==1.11.1
 kivy-deps.angle==0.1.9
 kivy-deps.glew==0.1.12
